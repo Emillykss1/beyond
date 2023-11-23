@@ -70,7 +70,7 @@ export default {
     };
   },
   methods: {
-    ...mapActions('users', ['create']), // Mapeando a ação 'create' do módulo 'users'
+    ...mapActions('users', ['create']), 
 
     async register() {
       try {
